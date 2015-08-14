@@ -1,0 +1,16 @@
+T=int(raw_input())
+for i in range(T):
+    x=raw_input()
+    l=[]
+   
+    no_ofa=0
+    no_ofb=0
+    
+    t=0
+    while(t<len(x)-1):
+            prev=x[t]
+            if(x[t]==x[t+1]):                
+                l.append(x[t])
+            t=t+1    
+              
+    print len(l)
